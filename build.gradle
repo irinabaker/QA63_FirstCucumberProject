@@ -12,7 +12,6 @@ repositories {
 dependencies {
     implementation 'org.seleniumhq.selenium:selenium-java:4.35.0'
     implementation 'io.github.bonigarcia:webdrivermanager:6.2.0'
-
     implementation 'io.cucumber:cucumber-java:7.27.2'
     implementation 'io.cucumber:cucumber-junit:7.27.2'
 }
