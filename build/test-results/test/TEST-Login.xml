@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Login" tests="4" skipped="0" failures="0" errors="0" timestamp="2025-08-29T08:50:47" hostname="iras-Laptop" time="12.694">
+  <properties/>
+  <testcase name="Login with correct email and wrong password #1" classname="Login" time="3.706"/>
+  <testcase name="Login with correct email and wrong password #2" classname="Login" time="2.884"/>
+  <testcase name="Login with correct email and wrong password #3" classname="Login" time="3.316"/>
+  <testcase name="Login with correct email and wrong password #4" classname="Login" time="2.788"/>
+  <system-out><![CDATA[
+@wrongPassword
+?[1mScenario Outline:?[22m Login with correct email and wrong password ?[90m# file:///Users/baker/QA/QA63_FirstCucumberProject/src/test/resources/features/login.feature:26?[39m
+  ?[32m✔?[39m ?[32m?[1mGiven ?[22mUser launches Chrome browser?[39m                        ?[90m# com.ilcarro.stepDefinitions.HomePageSteps.launch_Chrome_browser()?[39m
+  ?[32m✔?[39m ?[32m?[1mWhen ?[22mUser opens ilcarro Home Page?[39m                         ?[90m# com.ilcarro.stepDefinitions.HomePageSteps.open_HomePage()?[39m
+  ?[32m✔?[39m ?[32m?[1mAnd ?[22mUser clicks on Login link?[39m                             ?[90m# com.ilcarro.stepDefinitions.LoginSteps.click_on_Login_link()?[39m
+  ?[32m✔?[39m ?[32m?[1mAnd ?[22mUser enters correct email and wrong password?[39m          ?[90m# com.ilcarro.stepDefinitions.LoginSteps.enter_wrong_password(io.cucumber.datatable.DataTable)?[39m
+      | email         | password    |
+      | manuel@gm.com | manuel1234! |
+  ?[32m✔?[39m ?[32m?[1mAnd ?[22mUser clicks on Yalla button?[39m                           ?[90m# com.ilcarro.stepDefinitions.LoginSteps.click_on_Yalla()?[39m
+  ?[32m✔?[39m ?[32m?[1mThen ?[22mUser verifies ErrorMessage is displayed?[39m              ?[90m# com.ilcarro.stepDefinitions.LoginSteps.verify_error()?[39m
+  ?[32m✔?[39m ?[32m?[1mAnd ?[22mUser quites browser?[39m                                   ?[90m# com.ilcarro.stepDefinitions.HomePageSteps.quit_browser()?[39m
+
+@wrongPassword
+?[1mScenario Outline:?[22m Login with correct email and wrong password ?[90m# file:///Users/baker/QA/QA63_FirstCucumberProject/src/test/resources/features/login.feature:27?[39m
+  ?[32m✔?[39m ?[32m?[1mGiven ?[22mUser launches Chrome browser?[39m                        ?[90m# com.ilcarro.stepDefinitions.HomePageSteps.launch_Chrome_browser()?[39m
+  ?[32m✔?[39m ?[32m?[1mWhen ?[22mUser opens ilcarro Home Page?[39m                         ?[90m# com.ilcarro.stepDefinitions.HomePageSteps.open_HomePage()?[39m
+  ?[32m✔?[39m ?[32m?[1mAnd ?[22mUser clicks on Login link?[39m                             ?[90m# com.ilcarro.stepDefinitions.LoginSteps.click_on_Login_link()?[39m
+  ?[32m✔?[39m ?[32m?[1mAnd ?[22mUser enters correct email and wrong password?[39m          ?[90m# com.ilcarro.stepDefinitions.LoginSteps.enter_wrong_password(io.cucumber.datatable.DataTable)?[39m
+      | email         | password    |
+      | manuel@gm.com | MANUEL1234! |
+  ?[32m✔?[39m ?[32m?[1mAnd ?[22mUser clicks on Yalla button?[39m                           ?[90m# com.ilcarro.stepDefinitions.LoginSteps.click_on_Yalla()?[39m
+  ?[32m✔?[39m ?[32m?[1mThen ?[22mUser verifies ErrorMessage is displayed?[39m              ?[90m# com.ilcarro.stepDefinitions.LoginSteps.verify_error()?[39m
+  ?[32m✔?[39m ?[32m?[1mAnd ?[22mUser quites browser?[39m                                   ?[90m# com.ilcarro.stepDefinitions.HomePageSteps.quit_browser()?[39m
+
+@wrongPassword
+?[1mScenario Outline:?[22m Login with correct email and wrong password ?[90m# file:///Users/baker/QA/QA63_FirstCucumberProject/src/test/resources/features/login.feature:28?[39m
+  ?[32m✔?[39m ?[32m?[1mGiven ?[22mUser launches Chrome browser?[39m                        ?[90m# com.ilcarro.stepDefinitions.HomePageSteps.launch_Chrome_browser()?[39m
+  ?[32m✔?[39m ?[32m?[1mWhen ?[22mUser opens ilcarro Home Page?[39m                         ?[90m# com.ilcarro.stepDefinitions.HomePageSteps.open_HomePage()?[39m
+  ?[32m✔?[39m ?[32m?[1mAnd ?[22mUser clicks on Login link?[39m                             ?[90m# com.ilcarro.stepDefinitions.LoginSteps.click_on_Login_link()?[39m
+  ?[32m✔?[39m ?[32m?[1mAnd ?[22mUser enters correct email and wrong password?[39m          ?[90m# com.ilcarro.stepDefinitions.LoginSteps.enter_wrong_password(io.cucumber.datatable.DataTable)?[39m
+      | email         | password    |
+      | manuel@gm.com | Ьфтгуд1234! |
+  ?[32m✔?[39m ?[32m?[1mAnd ?[22mUser clicks on Yalla button?[39m                           ?[90m# com.ilcarro.stepDefinitions.LoginSteps.click_on_Yalla()?[39m
+  ?[32m✔?[39m ?[32m?[1mThen ?[22mUser verifies ErrorMessage is displayed?[39m              ?[90m# com.ilcarro.stepDefinitions.LoginSteps.verify_error()?[39m
+  ?[32m✔?[39m ?[32m?[1mAnd ?[22mUser quites browser?[39m                                   ?[90m# com.ilcarro.stepDefinitions.HomePageSteps.quit_browser()?[39m
+
+@wrongPassword
+?[1mScenario Outline:?[22m Login with correct email and wrong password ?[90m# file:///Users/baker/QA/QA63_FirstCucumberProject/src/test/resources/features/login.feature:29?[39m
+  ?[32m✔?[39m ?[32m?[1mGiven ?[22mUser launches Chrome browser?[39m                        ?[90m# com.ilcarro.stepDefinitions.HomePageSteps.launch_Chrome_browser()?[39m
+  ?[32m✔?[39m ?[32m?[1mWhen ?[22mUser opens ilcarro Home Page?[39m                         ?[90m# com.ilcarro.stepDefinitions.HomePageSteps.open_HomePage()?[39m
+  ?[32m✔?[39m ?[32m?[1mAnd ?[22mUser clicks on Login link?[39m                             ?[90m# com.ilcarro.stepDefinitions.LoginSteps.click_on_Login_link()?[39m
+  ?[32m✔?[39m ?[32m?[1mAnd ?[22mUser enters correct email and wrong password?[39m          ?[90m# com.ilcarro.stepDefinitions.LoginSteps.enter_wrong_password(io.cucumber.datatable.DataTable)?[39m
+      | email         | password    |
+      | manuel@gm.com | Manuel12341 |
+  ?[32m✔?[39m ?[32m?[1mAnd ?[22mUser clicks on Yalla button?[39m                           ?[90m# com.ilcarro.stepDefinitions.LoginSteps.click_on_Yalla()?[39m
+  ?[32m✔?[39m ?[32m?[1mThen ?[22mUser verifies ErrorMessage is displayed?[39m              ?[90m# com.ilcarro.stepDefinitions.LoginSteps.verify_error()?[39m
+  ?[32m✔?[39m ?[32m?[1mAnd ?[22mUser quites browser?[39m                                   ?[90m# com.ilcarro.stepDefinitions.HomePageSteps.quit_browser()?[39m
+]]></system-out>
+  <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+]]></system-err>
+</testsuite>
